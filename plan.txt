@@ -1,0 +1,11 @@
+main entry point:
+1. The program will get a spotify playlist id.
+2. Create a session directory.
+3. Iterate over every song and for every song create a directory(with special name) containing the song metadata as a yaml file.
+4. Now, for each song download it to its directory.
+click upload entry point - the user can stop after stage 4 and put his own audio files in the directories
+5. given the session directory, iterate over every directory with the special pattern.
+6. for each directory create a zip containing the file and its metadata yaml.
+7. encode each zip file so click will pass it(rename to .txt file and change first byte).
+8. send each one of the zip files to the click bot.
+9. create a submission file containing the names of all the files that should pass on the session and upload it to the click bot as well.
