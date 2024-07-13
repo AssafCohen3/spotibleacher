@@ -9,3 +9,6 @@ click upload entry point - the user can stop after stage 4 and put his own audio
 7. encode each zip file so click will pass it(rename to .txt file and change first byte).
 8. send each one of the zip files to the click bot.
 9. create a submission file containing the names of all the files that should pass on the session and upload it to the click bot as well.
+
+
+Note!: allow some caching mechanism so we wont have to download the same song many times.
